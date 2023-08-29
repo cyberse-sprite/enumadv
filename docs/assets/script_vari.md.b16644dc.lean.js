@@ -1,0 +1,1 @@
+import{_ as t,v as r,b as a}from"./chunks/framework.f4f52a19.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"script/vari.md","filePath":"script/vari.md"}'),e={name:"script/vari.md"};function s(i,c,n,o,p,_){return r(),a("div")}const m=t(e,[["render",s]]);export{f as __pageData,m as default};

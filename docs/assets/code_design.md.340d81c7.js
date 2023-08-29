@@ -1,1 +1,0 @@
-import{_ as e,v as t,b as s}from"./chunks/framework.caa0fbaf.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"code/design.md","filePath":"code/design.md"}'),a={name:"code/design.md"};function d(n,r,o,c,i,_){return t(),s("div")}const m=e(a,[["render",d]]);export{f as __pageData,m as default};
