@@ -28,4 +28,3 @@ coverage
 *.sw?
 
 public/mod/*
-!public/mod/index.json
