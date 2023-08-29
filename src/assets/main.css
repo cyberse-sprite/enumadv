@@ -1,0 +1,69 @@
+@import './base.css';
+
+body,
+html,
+#app {
+  margin: 0;
+  padding: 0;
+}
+
+b {
+  font-weight: bolder;
+}
+
+.card {
+  border: 1px #aaa solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.line-item {
+  flex: 1;
+}
+
+.tag {
+  width: 10%;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.back {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px #aaa solid;
+  margin-bottom: 10px;
+}
+
+.back-down {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.item-back {
+  border-top: 1px #aaa solid;
+  padding: 10px;
+  display: flex;
+}
+
+.item-tag {
+  width: 10%;
+  flex-shrink: 0;
+}
+
+.item-type {
+  width: 100%;
+}
+
+.item-info {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.p-text {
+  color: #000;
+}
+
+.p-info {
+  color: #aaa;
+}
