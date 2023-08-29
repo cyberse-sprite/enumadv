@@ -1,0 +1,1 @@
+import{_ as t,v as r,b as a}from"./chunks/framework.caa0fbaf.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"script/actor.md","filePath":"script/actor.md"}'),e={name:"script/actor.md"};function s(c,o,i,n,p,_){return r(),a("div")}const m=t(e,[["render",s]]);export{f as __pageData,m as default};
