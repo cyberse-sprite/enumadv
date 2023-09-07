@@ -4,7 +4,7 @@ import OneMoreLine from './onemoreline.vue'
 import EventSelect from './type/select.vue'
 import EventInput from './type/input.vue'
 import EventRand from './type/rand.vue'
-import { eventFilter, eventColorFilter } from '@/dev/filter'
+import { eventFilter, eventColorFilter } from '../../dev/filter'
 const props = defineProps({ event: Object });
 
 </script>

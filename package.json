@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "run-p type-check build-only",
+    "dev": "vite serve vite_dev",
+    "min": "vite serve vite_min",
+    "build:dev": "run-p type-check build-only-dev",
+    "build:min": "run-p type-check build-only-min",
     "preview": "vite preview",
-    "build-only": "vite build",
+    "build-only-dev": "vite build vite_dev",
+    "build-only-min": "vite build vite_min",
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {

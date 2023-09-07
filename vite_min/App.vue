@@ -1,28 +1,17 @@
 <script setup lang="ts" defer=true>
-import { ref } from 'vue'
-import Game from '@/game/game'
-import DevVue from '@/components/dev.vue'
-import GameVue from '@/components/game.vue'
-import { Operation } from '@element-plus/icons-vue'
+
+import Game from '../src/game/game'
+import GameVue from '../src/components/game.vue'
 
 var game = new Game
-//@ts-ignore
 globalThis.game = game
-
-const devsw = ref(false)
 
 </script>
 
 <template>
-  <div class="affix">
-    <el-button type="primary" :icon="Operation" circle @click="devsw = !devsw" size="large" />
-  </div>
   <div class="container">
     <div class="core">
       <game-vue></game-vue>
-    </div>
-    <div class="dev" v-if="devsw">
-      <dev-vue></dev-vue>
     </div>
   </div>
 </template>
