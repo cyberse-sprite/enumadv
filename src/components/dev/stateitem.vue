@@ -4,7 +4,7 @@ const props = defineProps({ state: Object })
 
 <template>
     <div>
-        <div v-for="(event, i) in props.state.events">
+        <div v-for="(event, i) in props.state!.events">
             <el-tag :type="parseInt(event) < 0 ? 'danger' : 'success'">{{ i }}</el-tag>
             {{ event }}
         </div>

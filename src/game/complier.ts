@@ -46,11 +46,11 @@ export default class Complier {
             this.eval(content[i])
         }
     }
-    static text(content: string | Array) {
+    static text(content: string) {
         try {
-            const str = content.replace(new RegExp('\\${(.*?)}', 'g'), (m) => { const e = m.replace(new RegExp('\\$|{|}', 'g'), ''); return this.eval(e) })
+            const str = content.replace(new RegExp('\\${(.*?)}', 'g'), (m: any) => { const e = m.replace(new RegExp('\\$|{|}', 'g'), ''); return this.eval(e) })
             return str
-        } catch (err) {
+        } catch (err: any) {
             console.error(content, err.message)
             return ""
         }
