@@ -186,9 +186,7 @@ export default class EventQueue {
     }
     get(get: string) {
         var _this = this
-        let url = get
-        if (url[0] == '/')
-            url = `mod/${this.game.getGameKey()}/get${get}`
+        let url = `mod/${this.game.getGameKey()}/get/${get}`
         axios.get(url).then((res) => {
             const longText: string = res.data
             const d = longText.split('\r\n')

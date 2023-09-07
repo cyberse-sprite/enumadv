@@ -10,11 +10,6 @@ import System from './system';
 import EventQueue, { type Input, type Select } from './event'
 import Save from './save';
 
-interface GameIndexItem {
-    name: string
-    key: string
-}
-
 export default class Game {
     //与面板直接绑定的内容
     view = reactive({
